@@ -143,6 +143,12 @@ npm run dev
 http://localhost:5173
 ```
 
+### 🌐 Site em Produção
+- **URL:** https://rafa-psi-psychology.surge.sh
+- **Status:** ✅ Online e funcional
+- **Deploy:** Surge.sh
+- **Build:** Otimizado para produção
+
 ## 📞 Contato Profissional
 
 - **WhatsApp:** (21) 99402-1137

@@ -24,15 +24,30 @@ html {
 }
 
 /* Media queries para margens responsivas */
+@media (max-width: 1200px) {
+  :root {
+    --container-padding: 0 4rem;
+  }
+}
+
 @media (max-width: 768px) {
   :root {
-    --container-padding: 0 2.5rem;
+    --container-padding: 0 2rem;
+    --section-spacing: 3rem;
   }
 }
 
 @media (max-width: 480px) {
   :root {
-    --container-padding: 0 1.5rem;
+    --container-padding: 0 1rem;
+    --section-spacing: 2.5rem;
+  }
+}
+
+@media (max-width: 360px) {
+  :root {
+    --container-padding: 0 0.75rem;
+    --section-spacing: 2rem;
   }
 }
 
@@ -144,11 +159,32 @@ a:focus {
     --section-spacing: 3rem;
     --container-padding: 0 2rem;
   }
+  
+  .btn-primary,
+  .btn-secondary {
+    padding: 0.875rem 1.5rem;
+    font-size: 0.9rem;
+  }
 }
 
 @media (max-width: 480px) {
   :root {
     --section-spacing: 2rem;
     --container-padding: 0 1rem;
+  }
+  
+  .btn-primary,
+  .btn-secondary {
+    padding: 0.75rem 1.25rem;
+    font-size: 0.85rem;
+    width: 100%;
+    margin-bottom: 0.5rem;
+  }
+}
+
+@media (max-width: 360px) {
+  :root {
+    --section-spacing: 1.5rem;
+    --container-padding: 0 0.75rem;
   }
 }

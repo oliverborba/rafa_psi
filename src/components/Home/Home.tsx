@@ -502,8 +502,8 @@ const Home: React.FC = () => {
                 <div>
                   <h3>Modalidade de Atendimento</h3>
                   <p><strong>Exclusivamente Particular</strong><br />
-                  Não atendo por planos de saúde ou convênios<br />
-                  Valores e formas de pagamento consulte via WhatsApp</p>
+                    Não atendo por planos de saúde ou convênios<br />
+                    Valores e formas de pagamento consulte via WhatsApp</p>
                 </div>
               </div>
             </div>
