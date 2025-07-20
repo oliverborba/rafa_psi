@@ -1,0 +1,14 @@
+User-agent: *
+Allow: /
+
+# Sitemap
+Sitemap: https://psicologiarafael.com.br/sitemap.xml
+
+# Disallow sensitive pages
+Disallow: /admin/
+Disallow: /private/
+Disallow: /*.json$
+Disallow: /*.xml$ (except sitemap.xml)
+
+# Crawl-delay
+Crawl-delay: 1
