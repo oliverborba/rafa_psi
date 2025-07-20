@@ -11,14 +11,14 @@ const App: React.FC = () => {
     <Router>
       <div className="App">
         <Helmet>
-          <title>Rafael Marrero Brignol - Psicólogo e Musicoterapeuta | TEA e Desenvolvimento Infantil</title>
+          <title>Rafael Marrero Brignol - Psicólogo Clínico e Musicoterapeuta | Adultos RJ</title>
           <meta
             name="description"
-            content="Rafael Marrero Brignol - Psicólogo Clínico (CRP 05/67479) e Musicoterapeuta (AMT-RJ 649/1) especializado em TEA, desenvolvimento infantil e terapia cognitivo-comportamental em Taboão da Serra/SP."
+            content="Rafael Marrero Brignol - Psicólogo Clínico (CRP 05/67479) e Musicoterapeuta (AMT-RJ 649/1) especializado em terapia para adultos, TCC e musicoterapia em Copacabana/RJ."
           />
           <meta
             name="keywords"
-            content="psicólogo, musicoterapeuta, TEA, autismo, psicoterapia infantil, TCC, ABA, ESDM, Taboão da Serra, CRP, musicoterapia neurológica"
+            content="psicólogo, musicoterapeuta, psicoterapia adultos, TCC, terapia cognitivo comportamental, Copacabana, CRP, musicoterapia neurológica, ansiedade, depressão"
           />
           <meta name="author" content="Rafael Marrero Brignol" />
           <meta name="robots" content="index, follow" />
@@ -28,11 +28,11 @@ const App: React.FC = () => {
           <meta property="og:title" content="Rafael Marrero Brignol - Psicólogo e Musicoterapeuta" />
           <meta
             property="og:description"
-            content="Psicólogo Clínico e Musicoterapeuta especializado em TEA e desenvolvimento infantil. Atendimento profissional em Taboão da Serra/SP."
+            content="Psicólogo Clínico e Musicoterapeuta especializado em terapia para adultos e desenvolvimento pessoal. Atendimento particular em Copacabana/RJ."
           />
           <meta property="og:type" content="website" />
-          <meta property="og:url" content="https://psicologiarafael.com.br" />
-          <meta property="og:image" content="https://psicologiarafael.com.br/assets/og-image.jpg" />
+          <meta property="og:url" content="https://rafa-psi-psychology.surge.sh" />
+          <meta property="og:image" content="https://rafa-psi-psychology.surge.sh/assets/rafa.png" />
           <meta property="og:locale" content="pt_BR" />
           <meta property="og:site_name" content="Rafael Marrero Brignol - Psicólogo e Musicoterapeuta" />
 
@@ -41,9 +41,9 @@ const App: React.FC = () => {
           <meta name="twitter:title" content="Rafael Marrero Brignol - Psicólogo e Musicoterapeuta" />
           <meta
             name="twitter:description"
-            content="Psicólogo Clínico e Musicoterapeuta especializado em TEA e desenvolvimento infantil em Taboão da Serra/SP."
+            content="Psicólogo Clínico e Musicoterapeuta especializado em terapia para adultos e desenvolvimento pessoal em Copacabana/RJ."
           />
-          <meta name="twitter:image" content="https://psicologiarafael.com.br/assets/twitter-image.jpg" />
+          <meta name="twitter:image" content="https://rafa-psi-psychology.surge.sh/assets/rafa.png" />
 
           {/* Structured Data - JSON-LD */}
           <script type="application/ld+json">
@@ -51,20 +51,20 @@ const App: React.FC = () => {
               "@context": "https://schema.org",
               "@type": "Psychologist",
               "name": "Rafael Marrero Brignol",
-              "image": "https://psicologiarafael.com.br/assets/rafa.png",
-              "telephone": "+55-11-98765-4321",
+              "image": "https://rafa-psi-psychology.surge.sh/assets/rafa.png",
+              "telephone": "+55-21-98765-4321",
               "email": "rafael@psicologiarafael.com.br",
-              "url": "https://psicologiarafael.com.br",
+              "url": "https://rafa-psi-psychology.surge.sh",
               "address": {
                 "@type": "PostalAddress",
-                "streetAddress": "Rua XV de Novembro, 456",
-                "addressLocality": "Taboão da Serra",
-                "addressRegion": "SP",
-                "postalCode": "06760-000",
+                "streetAddress": "Rua Barata Ribeiro, 456",
+                "addressLocality": "Copacabana",
+                "addressRegion": "RJ",
+                "postalCode": "22040-000",
                 "addressCountry": "BR"
               },
-              "areaServed": "Taboão da Serra",
-              "serviceType": ["Psicoterapia", "Musicoterapia"],
+              "areaServed": ["Copacabana", "Rio de Janeiro"],
+              "serviceType": ["Psicoterapia Individual", "Musicoterapia", "Terapia Cognitivo-Comportamental"],
               "priceRange": "$$",
               "openingHours": [
                 "Mo-Fr 08:00-18:00",
@@ -85,13 +85,13 @@ const App: React.FC = () => {
                 }
               ],
               "knowsAbout": [
-                "Transtorno do Espectro do Autismo (TEA)",
                 "Musicoterapia",
                 "Terapia Cognitivo-Comportamental",
-                "Psicoterapia Infantil",
-                "ABA - Análise do Comportamento Aplicada",
-                "Modelo Denver (ESDM)",
-                "Orientação Familiar"
+                "Psicoterapia Individual",
+                "Ansiedade",
+                "Depressão",
+                "Transtornos de Humor",
+                "Desenvolvimento Pessoal"
               ]
             })}
           </script>

@@ -11,8 +11,8 @@ const Footer: React.FC = () => {
           <div className="footer-section">
             <h3>Rafael Marrero Brignol</h3>
             <p className="footer-description">
-              Psicólogo clínico especializado em TEA, psicoterapia infantil e do adolescente.
-              Musicoterapeuta com formação em ABA e modelo Denver.
+              Psicólogo clínico especializado no atendimento de adultos e musicoterapia.
+              Formação em TCC e abordagens terapêuticas para desenvolvimento pessoal.
             </p>
             <div className="footer-crp">
               <p><strong>CRP 05/67479 | AMT-RJ 649/1</strong></p>

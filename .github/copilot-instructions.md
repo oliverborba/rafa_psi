@@ -41,5 +41,5 @@ This is a React + TypeScript + Vite project for a professional psychologist webs
 - Profession: Clinical Psychologist and Music Therapist
 - CRP: 05/67479
 - Location: Taboão da Serra, SP
-- Services: Individual therapy, TCC, Music therapy, ABA interventions
+- Services: Individual therapy, TCC, Music therapy, Adult counseling
 - Target: Adults seeking mental health services
