@@ -489,7 +489,21 @@ const Home: React.FC = () => {
                 </div>
                 <div>
                   <h3>Horário de Atendimento</h3>
-                  <p>Segunda a Sexta: 8h às 18h<br />Atendimento exclusivamente particular</p>
+                  <p>Segunda a Sexta: 8h às 18h</p>
+                </div>
+              </div>
+
+              <div className="info-item">
+                <div className="info-icon">
+                  <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm-2 15l-5-5 1.41-1.41L10 14.17l7.59-7.59L19 8l-9 9z" fill="currentColor" />
+                  </svg>
+                </div>
+                <div>
+                  <h3>Modalidade de Atendimento</h3>
+                  <p><strong>Exclusivamente Particular</strong><br />
+                  Não atendo por planos de saúde ou convênios<br />
+                  Valores e formas de pagamento consulte via WhatsApp</p>
                 </div>
               </div>
             </div>

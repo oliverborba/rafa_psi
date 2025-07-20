@@ -1,15 +1,16 @@
 /* Footer Styles */
 .footer {
-  background: linear-gradient(135deg, var(--primary-color) 0%, #6a1b9a 100%);
+  background: linear-gradient(135deg, var(--primary-color) 0%, var(--secondary-color) 100%);
   color: white;
   padding: 3rem 0 1rem;
   margin-top: auto;
+  width: 100%;
 }
 
 .footer-container {
-  max-width: 1200px;
+  max-width: var(--max-width);
   margin: 0 auto;
-  padding: 0 2rem;
+  padding: var(--container-padding);
 }
 
 .footer-content {

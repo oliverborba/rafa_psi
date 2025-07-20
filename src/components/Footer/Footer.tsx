@@ -107,14 +107,22 @@ const Footer: React.FC = () => {
                   target="_blank"
                   rel="noopener noreferrer"
                   style={{
-                    color: 'var(--primary-color)',
+                    color: '#FFD700',
                     textDecoration: 'none',
-                    fontWeight: '500'
+                    fontWeight: '600',
+                    background: 'rgba(255, 255, 255, 0.1)',
+                    padding: '2px 8px',
+                    borderRadius: '4px',
+                    transition: 'all 0.3s ease'
                   }}
                   onMouseOver={(e) => {
+                    e.currentTarget.style.background = 'rgba(255, 255, 255, 0.2)';
+                    e.currentTarget.style.color = '#FFF8DC';
                     e.currentTarget.style.textDecoration = 'underline';
                   }}
                   onMouseOut={(e) => {
+                    e.currentTarget.style.background = 'rgba(255, 255, 255, 0.1)';
+                    e.currentTarget.style.color = '#FFD700';
                     e.currentTarget.style.textDecoration = 'none';
                   }}
                 >
