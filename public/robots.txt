@@ -1,14 +1,41 @@
 User-agent: *
 Allow: /
+Allow: /assets/
+Allow: /*.css
+Allow: /*.js
+Allow: /*.png
+Allow: /*.jpg
+Allow: /*.jpeg
+Allow: /*.webp
+Allow: /*.svg
 
 # Sitemap
-Sitemap: https://psicologiarafael.com.br/sitemap.xml
+Sitemap: https://rafa-psi-psychology.surge.sh/sitemap.xml
 
-# Disallow sensitive pages
+# Specific bot configurations
+User-agent: Googlebot
+Allow: /
+Crawl-delay: 1
+
+User-agent: Bingbot
+Allow: /
+Crawl-delay: 1
+
+User-agent: facebookexternalhit
+Allow: /
+
+User-agent: Twitterbot
+Allow: /
+
+# Disallow sensitive areas
 Disallow: /admin/
 Disallow: /private/
-Disallow: /*.json$
-Disallow: /*.xml$ (except sitemap.xml)
+Disallow: /temp/
+Disallow: /cache/
+Disallow: *.json$ (except site.webmanifest)
 
-# Crawl-delay
+# Performance optimization
 Crawl-delay: 1
+
+# Host directive
+Host: https://rafa-psi-psychology.surge.sh

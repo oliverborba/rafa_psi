@@ -38,8 +38,10 @@ const Home: React.FC = () => {
           <div className="hero-image">
             <img
               src="/assets/rafa.png"
-              alt="Psicólogo Rafael Marrero Brignol"
-              loading="lazy"
+              alt="Dr. Rafael Marrero Brignol - Psicólogo Clínico CRP 05/67479 e Musicoterapeuta AMT-RJ 649/1 especializado em TCC e terapia para adultos em Copacabana, Rio de Janeiro"
+              loading="eager"
+              width="350"
+              height="300"
               style={{
                 width: '350px',
                 height: '300px',
@@ -376,8 +378,10 @@ const Home: React.FC = () => {
           <div className="especialidades-image">
             <img
               src="/assets/atendimento_psicologo.jpg"
-              alt="Consultório de Psicologia - Ambiente de Atendimento"
+              alt="Consultório de Psicologia em Copacabana - Ambiente acolhedor e profissional para atendimento psicológico especializado em TCC, musicoterapia e desenvolvimento pessoal para adultos no Rio de Janeiro"
               loading="lazy"
+              width="500"
+              height="300"
               style={{
                 width: '100%',
                 maxWidth: '500px',
