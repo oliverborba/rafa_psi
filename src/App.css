@@ -12,11 +12,21 @@ html {
 }
 
 :root {
-  --primary-color: #2d5a87;
-  --secondary-color: #4a90b8;
-  --accent-color: #7ab8d3;
-  --text-color: #333;
-  --light-bg: #f0f7fb;
+  /* Cores principais para saúde mental */
+  --primary-color: #2c6e6e;        /* Teal profundo - calma e estabilidade */
+  --secondary-color: #4a9b9b;      /* Teal médio - confiança */
+  --accent-color: #6bbbb3;         /* Verde-azulado suave - harmonia */
+  --warm-accent: #8fbc8f;          /* Verde sálvia - crescimento */
+  --soft-blue: #7da3a8;           /* Azul acinzentado - serenidade */
+  
+  /* Cores de texto e fundos */
+  --text-color: #2d4a4a;          /* Texto principal escuro */
+  --text-light: #5a7a7a;          /* Texto secundário */
+  --light-bg: #f7fbfb;            /* Fundo muito suave */
+  --white-bg: #ffffff;            /* Branco puro */
+  --section-bg: #f0f8f8;         /* Fundo de seções */
+  
+  /* Espaçamentos */
   --section-spacing: 4rem;
   --content-spacing: 2rem;
   --max-width: 1400px;
@@ -109,12 +119,13 @@ a:focus {
   color: white;
   padding: 1rem 2rem;
   font-size: 1rem;
-  box-shadow: 0 4px 15px rgba(45, 90, 135, 0.3);
+  box-shadow: 0 4px 15px rgba(44, 110, 110, 0.3);
 }
 
 .btn-primary:hover {
   transform: translateY(-2px);
-  box-shadow: 0 6px 20px rgba(45, 90, 135, 0.4);
+  box-shadow: 0 6px 20px rgba(44, 110, 110, 0.4);
+  background: linear-gradient(135deg, var(--secondary-color) 0%, var(--accent-color) 100%);
 }
 
 .btn-secondary {

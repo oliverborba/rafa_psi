@@ -98,8 +98,6 @@ const Footer: React.FC = () => {
               Todos os direitos reservados.
             </p>
             <div className="footer-legal">
-              <span>CRP 05/67479</span>
-              <span>•</span>
               <span>
                 Site desenvolvido por{' '}
                 <a

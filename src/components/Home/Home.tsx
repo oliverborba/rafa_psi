@@ -424,7 +424,7 @@ const Home: React.FC = () => {
                   <button
                     onClick={() => window.open('https://wa.me/5521994021137?text=Olá! Gostaria de agendar uma consulta.', '_blank')}
                     style={{
-                      background: 'linear-gradient(135deg, #25d366 0%, #128c7e 100%)',
+                      background: 'linear-gradient(135deg, #4a9b9b 0%, #6bbbb3 100%)',
                       color: 'white',
                       border: 'none',
                       borderRadius: '25px',
@@ -437,15 +437,17 @@ const Home: React.FC = () => {
                       gap: '0.5rem',
                       marginTop: '0.8rem',
                       transition: 'all 0.3s ease',
-                      boxShadow: '0 4px 15px rgba(37, 211, 102, 0.3)'
+                      boxShadow: '0 4px 15px rgba(74, 155, 155, 0.3)'
                     }}
                     onMouseOver={(e) => {
                       e.currentTarget.style.transform = 'translateY(-2px)';
-                      e.currentTarget.style.boxShadow = '0 6px 20px rgba(37, 211, 102, 0.4)';
+                      e.currentTarget.style.boxShadow = '0 6px 20px rgba(74, 155, 155, 0.4)';
+                      e.currentTarget.style.background = 'linear-gradient(135deg, #6bbbb3 0%, #8fbc8f 100%)';
                     }}
                     onMouseOut={(e) => {
                       e.currentTarget.style.transform = 'translateY(0)';
-                      e.currentTarget.style.boxShadow = '0 4px 15px rgba(37, 211, 102, 0.3)';
+                      e.currentTarget.style.boxShadow = '0 4px 15px rgba(74, 155, 155, 0.3)';
+                      e.currentTarget.style.background = 'linear-gradient(135deg, #4a9b9b 0%, #6bbbb3 100%)';
                     }}
                   >
                     <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor">

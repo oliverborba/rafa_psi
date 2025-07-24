@@ -241,14 +241,16 @@
   align-items: flex-start;
   gap: 1.5rem;
   padding: 2rem;
-  background: var(--light-bg);
+  background: var(--section-bg);
   border-radius: 12px;
   transition: transform 0.3s ease, box-shadow 0.3s ease;
+  border: 1px solid rgba(44, 110, 110, 0.1);
 }
 
 .info-item:hover {
   transform: translateY(-2px);
-  box-shadow: 0 8px 25px rgba(0, 0, 0, 0.1);
+  box-shadow: 0 8px 25px rgba(44, 110, 110, 0.15);
+  background: var(--white-bg);
 }
 
 .info-icon {
@@ -276,9 +278,10 @@
 }
 
 .contato-form {
-  background: var(--light-bg);
+  background: var(--section-bg);
   padding: 2rem;
   border-radius: 15px;
+  border: 1px solid rgba(44, 110, 110, 0.1);
 }
 
 .contato-form h3 {
@@ -289,8 +292,8 @@
 }
 
 .info-importante {
-  background: #fff3cd;
-  border: 1px solid #ffeaa7;
+  background: linear-gradient(135deg, rgba(143, 188, 143, 0.15) 0%, rgba(107, 187, 179, 0.15) 100%);
+  border: 1px solid var(--warm-accent);
   border-radius: 8px;
   padding: 1rem;
   margin-bottom: 1.5rem;
